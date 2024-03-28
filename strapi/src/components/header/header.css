@@ -1,0 +1,15 @@
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+
+@keyframes stickyheader {
+    0% {
+        transform: translateY(-80px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
